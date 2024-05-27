@@ -427,6 +427,6 @@
         </div>
     </div>
 @endsection
-@section('page-script')
+{{-- @section('page-script')
     <script src="{{ asset('storage/app/public/js/addhardware.js') }}"></script>
-@endsection
+@endsection --}}

@@ -45,4 +45,5 @@
 <div class="row">
     {{ $infunds->links() }}
 </div>
-<script src="{{ asset('storage/js/updateproj.js') }}"></script>
+
+{{-- <script src="{{ asset('storage/js/updateproj.js') }}"></script> --}}
