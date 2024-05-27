@@ -463,6 +463,6 @@
     </div>
 @endsection
 
-{{-- @section('page-script')
+@section('page-script')
     <script src="{{ asset('storage/js/updateproj.js') }}"></script>
-@endsection --}}
+@endsection

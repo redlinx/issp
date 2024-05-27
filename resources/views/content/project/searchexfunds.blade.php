@@ -45,5 +45,4 @@
 <div class="row">
     {{ $exfunds->links() }}
 </div>
-
-{{-- <script src="{{ asset('storage/js/updateproj.js') }}"></script> --}}
+<script src="{{ asset('storage/js/updateproj.js') }}"></script>

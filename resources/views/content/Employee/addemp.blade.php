@@ -38,7 +38,6 @@
         </div>
     </div>
 @endsection
-
-{{-- @section('page-script')
+@section('page-script')
     <script src="{{ asset('storage/js/addemp.js') }}"></script>
-@endsection --}}
+@endsection

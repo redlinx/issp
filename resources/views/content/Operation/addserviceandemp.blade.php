@@ -101,6 +101,6 @@
     </div>
 @endsection
 
-{{-- @section('page-script')
+@section('page-script')
     <script src="{{ asset('storage/js/addservemp.js') }}"></script>
-@endsection --}}
+@endsection

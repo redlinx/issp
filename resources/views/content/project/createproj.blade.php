@@ -542,6 +542,6 @@
 
 @endsection
 
-{{-- @section('page-script')
+@section('page-script')
     <script src="{{ asset('storage/js/addproj.js') }}"></script>
-@endsection --}}
+@endsection

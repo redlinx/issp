@@ -44,5 +44,4 @@
 <div class="row mt-3">
     {{ $softwares->links() }}
 </div>
-
-{{-- <script src="{{ asset('storage/js/updatesoft.js') }}"></script> --}}
+<script src="{{ asset('storage/js/updatesoft.js') }}"></script>
