@@ -1,0 +1,100 @@
+{
+  "menu": [
+    {
+      "url": "/",
+      "name": "Dashboards",
+      "icon": "menu-icon tf-icons bx bx-home-circle",
+      "slug": "dashboard",
+      "submenu": [
+        {
+          "url": "/",
+          "name": "Analytics",
+          "slug": "dashboard-analytics"
+        }
+      ]
+    },
+    {
+      "url": "/ncpty",
+      "name": "Tables",
+      "icon": "bx bx-table",
+      "slug": "ncpty",
+      "submenu": [
+        {
+          "url": "/ncpty",
+          "name": "NCPTY",
+          "slug": "ncpty"
+        }
+      ]
+    },
+    {
+      "menuHeader": "Setup"
+    },
+    {
+      "url": "/icte",
+      "name": "Hardware",
+      "icon": "bx bx-cog",
+      "slug": "ictem",
+      "submenu": [
+        {
+          "url": "/add-hardware",
+          "name": "Add Hardware",
+          "slug": "icte"
+        }
+      ]
+    },
+    {
+      "url": "/proj",
+      "name": "Project",
+      "icon": "bx bx-cog",
+      "slug": "Proj",
+      "submenu": [
+        {
+          "url": "/createproj",
+          "name": "Create Project",
+          "slug": "createproj"
+        },
+        {
+          "url": "/updateproj",
+          "name": "List of Existing Projects",
+          "slug": "updateproj"
+        }
+      ]
+    },
+    {
+      "url": "/soft",
+      "name": "Software",
+      "icon": "bx bx-cog",
+      "slug": "soft",
+      "submenu": [
+        {
+          "url": "/addsoft",
+          "name": "Add Software",
+          "slug": "addsoft"
+        },
+        {
+          "url": "/updatesoft",
+          "name": "Update Software",
+          "slug": "updatesoft"
+        }
+      ]
+    },
+    {
+      "url": "/operations",
+      "name": "Services & Employees",
+      "icon": "bx bx-cog",
+      "slug": "operation",
+      "submenu": [
+        {
+          "url": "/add-services-employees",
+          "name": "Add Services and Employees",
+          "slug": "add-services-employees"
+        },
+        {
+          "url": "/update-operations",
+          "name": "Services & Employees",
+          "slug": "Update-operations"
+        }
+      ]
+    }
+  ]
+}
