@@ -177,7 +177,7 @@ class projectprocess extends Controller
 
       $deletsoftware = Software::where('type', 'Operating System')->whereIn('soft_id', $softid)->delete();
 
-      $deletehd = Hardware::whereIn('proj_id', $dcrypt)->delete();
+      $dhd = Hardware::whereIn('proj_id', $dcrypt)->delete();
 
       $check = Externalfund::where('project_id', $dcrypt)->first();
 
